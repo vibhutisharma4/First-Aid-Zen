@@ -3,7 +3,7 @@ import { Heart, AlertCircle } from 'lucide-react';
 
 const instructions = [
   "Check responsiveness. Tap shoulders firmly and shout 'Are you okay?'",
-  "Call for help. Call 911 and ask someone to find an AED if available.",
+  "Call for help. Call 102 and ask someone to find an AED if available.",
   "Begin chest compressions. Push hard and fast in the center of the chest, 100 to 120 compressions per minute."
 ];
 
@@ -34,7 +34,7 @@ const CPRPage = () => {
       <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-10">
         <div className="flex items-center">
           <AlertCircle className="w-8 h-8 text-red-600 mr-3" />
-          <p className="text-2xl text-red-800 font-semibold">Emergency Situation - Call 911 Immediately</p>
+          <p className="text-2xl text-red-800 font-semibold">Emergency Situation - Call 102 Immediately</p>
         </div>
       </div>
 

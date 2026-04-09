@@ -8,8 +8,9 @@ import HeartStrokePage from "./pages/HeartStrokePage";
 import PoisoningPage from "./pages/PoisoningPage";
 import ChokingPage from "./pages/ChokingPage";
 import SeizuresPage from "./pages/SeizuresPage";
-import CrisisPage from "./pages/CrisisPage";  // ✅ new import
+import CrisisPage from "./pages/CrisisPage";
 import NotFound from "./pages/NotFound";
+import TriagePage from "./pages/TriagePage";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="/poisoning" element={<PoisoningPage />} />
         <Route path="/choking" element={<ChokingPage />} />
         <Route path="/seizures" element={<SeizuresPage />} />
-        <Route path="/crisis" element={<CrisisPage />} />  {/* ✅ new route */}
+        <Route path="/crisis" element={<CrisisPage />} />
+        <Route path="/triage" element={<TriagePage />} />  {/* ✅ moved above * */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
